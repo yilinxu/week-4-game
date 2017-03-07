@@ -131,6 +131,7 @@ $(".result").on("click", "button", function(){
     $('.your_character').html("<p class = 'show'>" + "Your Character" + "</p>"
         +"<br><br><br><br><br><br>");
     $(".result").html("<div class = 'clear'></div>");
+    $("..available_enimies".html(""));
     defeated_enemy = 0;
     attack_number = 0;
 });
