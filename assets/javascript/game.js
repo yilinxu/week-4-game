@@ -132,6 +132,7 @@ $(".result").on("click", "button", function(){
         +"<br><br><br><br><br><br>");
     $(".result").html("<div class = 'clear'></div>");
     $("..available_enimies".html(""));
+    $(".defender").html("");
     defeated_enemy = 0;
     attack_number = 0;
 });
